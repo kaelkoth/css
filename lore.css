@@ -3,8 +3,8 @@
 .KAtitu {display: none;} 
 
 .lore-portada {width: 980px; height: 300px; margin: -75px 0px 0px -50px; display: flex; justify-content: center; align-items: center; font: 15px 'Gideon Roman';} 
-.lore-titulo {display: flex; flex-direction: column; align-items: center; width: 700px; font-size: 55px; color: var(--accent1);} 
-.lore-titulo i {font-style: normal; letter-spacing: 5px; font-size: 11px; color: var(--dbckg5);} 
+.lore-titulo {display: flex; flex-direction: column; align-items: center; width: 700px; color: var(--accent1); font: 100 30px 'Aquiline Two';} 
+.lore-titulo i {letter-spacing: 5px; color: var(--dbckg5); font: 14px 'Gideon Roman'; text-transform: uppercase;} 
 .lore-indice{text-align: right; width: 280px;} .lore-indice strong {background: var(--accent1); color: var(--dark); padding: 0px 20px 0px 15px; margin-left: 10px; border-radius: 50px 0px 0px 50px; line-height: 20px;} 
 .hoja u {background: linear-gradient(0deg, var(--accent1) 0%, transparent 5%); text-decoration: unset;} 
 .hoja strong { color: var(--accent1); } 
