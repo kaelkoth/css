@@ -1,0 +1,76 @@
+/* --- LORE --- */
+.lore-portada {width: 980px; height: 300px; margin: -75px 0px 0px -50px; display: flex; justify-content: center; align-items: center; font: 15px 'Gideon Roman';} 
+.lore-titulo { display: flex; flex-direction: column; align-items: center; width: 700px; color: var(--accent1); font: 100 110px 'BetterFields'; line-height: 60px; }
+.lore-titulo i { font: 10px 'Gideon Roman'; letter-spacing: 2px; color: var(--dbckg5); text-transform: uppercase; }
+.lore-indice{text-align: right; width: 280px;} .lore-indice strong {background: var(--accent1); color: var(--dark); padding: 0px 20px 0px 15px; margin-left: 10px; border-radius: 50px 0px 0px 50px; line-height: 20px;} 
+.hoja u {background: linear-gradient(0deg, var(--accent1) 0%, transparent 5%); text-decoration: unset;} 
+.hoja strong { color: var(--accent1); } 
+.titulo { color: var(--accent1); position: absolute; width: 880px; text-align: center; margin-top: -230px; font: 100 50px 'Gideon Roman'; text-shadow: var(--shadow); text-transform: uppercase; } 
+.hoja h4 {font: 100 30px 'Gideon Roman' !important; color: var(--accent1);} 
+.lore-inspo {display: flex; align-items: center; gap: 10px; font: 12px 'Gideon Roman'; text-transform: uppercase; letter-spacing: 2px; margin: -15px -20px;} 
+.lore-inspo em {color: var(--accent1); font-size: 25px;} .lore-inspo strong {color: var(--accent1); font-size: 14px; letter-spacing: 1px;} 
+.hoja h2.post-content { color: var(--accent1); font: 100 40px 'Gideon Roman' !important; text-align: left;} 
+.lore-pinterest {display: flex; flex-direction: column; align-items: center; width: 100px;position: absolute; margin: -100px 840px;} 
+.lore-pinterest em {font-size: 40px; background: linear-gradient(250deg, var(--dbckg6) 10%, var(--accent1)); background-size: 800%; animation: moveGradient 5s ease-in-out infinite; background-clip: text; color: transparent;}
+.lore-cita {width: 600px; margin: auto; font: 100 italic 15px 'Gideon Roman'; color: var(--dbckg5); line-height: 20px;}
+
+/* --- CUADERNOS DE ESCRITOR --- */
+.pluma-ficha { color: var(--dbckg5); font-size: 13px; margin: -40px -50px; padding: 50px 100px; width: 779px; background: linear-gradient(350deg, #bdbdbd00 30%, var(--groups) 300%); } 
+.pluma-titulo {display: flex; position: absolute; margin: -200px -100px; flex-direction: column; align-items: center; width: 979px; height: 250px; justify-content: center; font: 20px 'Playfair Display'; letter-spacing: 2px; background: radial-gradient(#00000091, transparent);} 
+.pluma-apartado {display: flex; flex-direction: column; align-items: center; line-height: 17px;} 
+.pluma-casillas {display: flex;} .pluma-casilla1 {margin-right: 20px; padding-right: 20px; height: 550px; overflow: auto;} .pluma-casilla1 strong {font: bold italic 18px 'Playfair Display';} 
+.pluma-imagen img { width: 979px; height: 250px; object-fit: cover; filter: brightness(0.3) grayscale(0.3) contrast(1.05) contrast(0.95); opacity: 0.2;} 
+.pluma-imagenes img {width: 170px; height: 170px; object-fit: cover; margin-bottom: 5px; filter: brightness(0.3) grayscale(0.3) contrast(1.05) contrast(0.95); } 
+.librito {color: blue;} .pluma-apartado .game-icon { font-size: 40px; color: var(--groups); }
+.pluma-pj {font: 80px 'Mr De Haviland'; color: var(--groups);} 
+.pluma-datos {font: 13px 'Alegreya Sans SC'; text-transform: lowercase; display: flex; flex-direction: column; align-items: center;} 
+.pluma-inicio {color: var(--dbckg6); text-shadow: 13px 5px 2px #020202;} .pluma-imagen {margin: -75px -100px;} 
+.pluma-a�os{font: italic 11px 'Alegreya Sans SC'; text-transform: lowercase; text-align: center; letter-spacing: 1px; margin: 13px -75px; position: absolute; color: #717171; text-shadow: 2px 2px 3px black;} 
+.pluma-retos {text-align: center; font: bold 20px 'Playfair Display'; color: var(--groups); background: var(--dbckg2); padding: 50px;} 
+.pluma-retos2 {display: flex; flex-wrap: wrap; justify-content: center; align-items: center;} 
+.pluma-reto {display: flex; flex-direction: column; font: italic 12px 'Alegreya Sans SC'; text-transform: lowercase; margin: 5px 10px; padding: 10px 20px; border-radius: 20px 0px 20px 0px; background: linear-gradient(350deg, #bdbdbd00 30%, var(--groups) 300%); color: var(--dbckg5);} 
+.pluma-años {margin: 10px -80px -40px; color: #585858b0; font: 12px 'Alegreya Sans SC'; text-transform: lowercase; display: flex; align-items: center; letter-spacing: 2px;}
+.pluma-fragmentos {text-align: center; font: bold 20px 'Playfair Display'; color: var(--groups); background: var(--dbckg2); padding: 50px;} 
+.pluma-fragmento {display: inline-block; flex-direction: column; font: 100 12px 'Merriweather'; text-align: justify; margin: 10px 10px; padding: 20px 30px; line-height: 17px; border-radius: 20px 0px 20px 0px; background: linear-gradient(350deg, #bdbdbd00 30%, var(--groups) 300%); color: var(--dbckg6);} 
+.pluma-cita {text-align: right;} .pluma-comentario {padding-top: 10px; border-top: 1px solid; border-image: linear-gradient(to right, var(--dark), var(--groups)) 1; color: var(--dbckg5); font: 100 13px 'Merriweather'; width: 80%; margin: auto; text-align: justify; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px;} 
+.pluma-comentario .game-icon {color: var(--groups); font-size: 25px;}
+.pluma-stamp { display: inline-flex; perspective: 1000px; /* Para el efecto 3D */ } .pluma-card { width: 120px; height: 120px; position: relative; transform-style: preserve-3d; transition: transform 0.8s ease; } 
+.pluma-stamp:hover .pluma-card { transform: rotateY(180deg); } .pluma-front, .pluma-back { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; /* Oculta la cara trasera */ display: flex; align-items: center; justify-content: center; font-family: sans-serif; font-weight: bold; text-align: center; border-radius: 8px; clip-path: polygon( 5% 0, 10% 5%, 15% 0, 20% 5%, 25% 0, 30% 5%, 35% 0, 40% 5%, 45% 0, 50% 5%, 55% 0, 60% 5%, 65% 0, 70% 5%, 75% 0, 80% 5%, 85% 0, 90% 5%, 95% 0, 100% 5%, 95% 10%, 100% 15%, 95% 20%, 100% 25%, 95% 30%, 100% 35%, 95% 40%, 100% 45%, 95% 50%, 100% 55%, 95% 60%, 100% 65%, 95% 70%, 100% 75%, 95% 80%, 100% 85%, 95% 90%, 100% 95%, 95% 100%, 90% 95%, 85% 100%, 80% 95%, 75% 100%, 70% 95%, 65% 100%, 60% 95%, 55% 100%, 50% 95%, 45% 100%, 40% 95%, 35% 100%, 30% 95%, 25% 100%, 20% 95%, 15% 100%, 10% 95%, 5% 100%, 0 95%, 5% 90%, 0 85%, 5% 80%, 0 75%, 5% 70%, 0 65%, 5% 60%, 0 55%, 5% 50%, 0 45%, 5% 40%, 0 35%, 5% 30%, 0 25%, 5% 20%, 0 15%, 5% 10%, 0 5% ); } 
+.pluma-front img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(0.9) brightness(0.5) contrast(1.2) contrast(0.9); border-radius: 8px; } 
+.pluma-back {background: var(--groups); color: white; text-shadow: 2px 1px black; font: bold italic 14px 'Alegreya Sans SC'; text-transform: lowercase; padding: 10px; transform: rotateY(180deg); display: flex ; flex-direction: column; line-height: 12px;} 
+.pluma-back i {font-size: 10px; font-weight: 100; margin-top: 10px;}
+
+/* --- DOMINIOS --- */
+.dominio-portada {margin-top: -25px; position: relative; display: inline-block; } 
+.dominio-portada img {width: 979px; height: 400px; object-fit: cover; filter: grayscale(1) contrast(2.9) contrast(0.2);} 
+.dominio-portada::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgb(0 0 0 / 80%) 10%, black 100%); pointer-events: none;} 
+.dominio-portada2 { position: relative; display: inline-block; } 
+.dominio-portada2 img {width: 979px; height: 400px; object-fit: cover; filter: grayscale(1) contrast(2.9) contrast(0.2);} 
+.dominio-portada2::after { content: ""; position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to top, rgb(0 0 0 / 80%) 10%, black 100%); pointer-events: none;} 
+.dominio-datos {display: flex; flex-direction: column; align-items: center; position: absolute; margin: -350px 0px; width: 979px; font: bold 40px 'Playfair Display'; color: var(--groups);} 
+.dominio-datos strong {letter-spacing: 3px; font-size: 10px; text-transform: uppercase; padding: 20px 100px; background: var(--dbckg2); clip-path: polygon(0% 50%, 10% 20%, 90% 20%, 100% 50%, 90% 80%, 10% 80%);}
+.dominio-datos u {letter-spacing: 5px; font-size: 10px; text-decoration: auto; color: var(--dbckg6);} 
+.dominio-lvl {width: 200px; display: flex; justify-content: center; align-items: center; flex-direction: column; font: 70px 'UnifrakturMaguntia'; z-index: 1;} 
+.dominio-lvl i {font-size: 15px; color: var(--dbckg4);}
+.dominio-texto {margin: auto; width: 750px; height: 400px; overflow: auto; padding-right: 30px;} 
+.dominio-capitulo {text-align: center; text-transform: uppercase; font: bold 16px 'Playfair Display'; border-bottom: 1px solid var(--groups); width: fit-content; margin: auto; padding-bottom: 10px;} 
+/* Escudo */ 
+.escudo {display: flex; width: 150px; height: 170px; background: var(--dbckg1); clip-path: polygon(50% 0%, 100% 10%, 90% 70%, 50% 100%, 10% 70%, 0% 10%); justify-content: center; align-items: center;} 
+.escudo i {color: var(--groups); font-size: 70px;} 
+/* Recursos*/ 
+.dominio-ficha {display: flex; align-items: center; position: absolute; margin-top: -400px; font: 11px 'Playfair Display'; letter-spacing: 1px; line-height: 20px;} 
+.alianzas {display: flex; width: 500px; margin-left: 50px; flex-direction: column; align-items: center; text-align: center; line-height: 20px; text-transform: uppercase;} 
+.alianzas i {font-size: 100px; color: var(--groups);} 
+.recursos {display: flex; flex-wrap: wrap; justify-content: center;} 
+.recurso {display: flex; width: 100px; margin: 15px; justify-content: center; align-items: center; flex-direction: column;} 
+.recurso strong {color: black; position: absolute; margin-top: 60px; font: 10px 'Alegreya Sans SC'; text-transform: lowercase;} 
+.recurso i {font-size: 40px; color: var(--groups);} 
+/* Territorio*/ 
+.dominio-terreno {position: absolute; display: flex; width: 979px; height: 150px; margin-top: -75px; background: var(--dbckg2);} 
+.territorio {display: flex; width: 480px; font: 11px 'Playfair Display'; letter-spacing: 1px; flex-direction: column; align-items: center; justify-content: center;} 
+.territorio strong {font-size: 20px;} 
+.dominio-terreno img { width: 300px; height: 150px; object-fit: cover; filter: grayscale(1) contrast(1.5) contrast(0.7) brightness(0.3);} 
+.tri {position: absolute; margin: -63px 46px; width: 110px; height: 130px; background: var(--dbckg1); clip-path: polygon(50% 0%, 100% 10%, 90% 70%, 50% 100%, 10% 70%, 0% 10%); z-index: 0;} 
+/* Barra de progreso */ progress { border: none; width: 100%; height: 15px; animation: prog 2s linear; } ::-webkit-progress-bar-value {background-color: red;} ::-webkit-progress-value {background-color: var(--groups)} ::-moz-progress-bar {background-color: yellow;} @keyframes prog { 0% {width: 0%; background-color: blue;} 100% {width: 100% color: pink;} } 
+.kkoth {width: 979px; text-align: center; margin-top: 90px; font: 9px 'Playfair Display'; letter-spacing: 5px; color: var(--dbckg5);}
+
